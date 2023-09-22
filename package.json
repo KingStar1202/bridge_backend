@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "event-watcher.js",
+  "scripts": {
+    "start": "node event-watcher.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "dotenv": "^16.0.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "node-cache": "^5.1.2",
+    "sqlite3": "^5.1.6",
+    "web3": "^1.7.0"
+  }
+}
